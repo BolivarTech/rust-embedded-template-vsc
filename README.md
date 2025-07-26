@@ -1,7 +1,9 @@
-# Rust Embedded Template
+# Visual Studio Code Rust Embedded Template
 
 This project provides a minimal template for starting a `#![no_std]` Rust embedded application. It is designed to be a 
 starting point for bare-metal or embedded development without the Rust standard library.
+
+This template is to be used in Visual Studio Code.
 
 This template is intended for creating embedded applications using Rust in a bare-metal environment on an MCU where no 
 crate exists that implements the HAL (Hardware Abstraction Layer) for your specific microcontroller. Due to time 
@@ -92,6 +94,8 @@ make modifications before starting your own project.
 ## Documentation
 
 For more detailed information on how to set up and use this template, refer to the [How-to Guide](doc/howto_detailed_setup.md).
+
+For information about required Visual Studio Code extensions and plugins, see the [VS Code Extensions Guide](VSCODE_EXTENSIONS.md).
 
 Additional documentation can be found in the [How to C/C++ FFI](doc/how_to_cpp_ffi.md) guide, which explains how to 
 interface Rust with C/C++ code using the Foreign Function Interface (FFI).
