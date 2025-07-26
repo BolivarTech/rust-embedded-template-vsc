@@ -67,7 +67,7 @@ embedded project with the necessary files and structure.
    ```
 2. **Generate a new project:**
    ````bash
-   cargo generate --git https://github.com/BolivarTech/rust-embedded-template.git --name myproject
+   cargo generate --git https://github.com/BolivarTech/rust-embedded-template-vsc.git --name myproject
 
    ````
 
@@ -78,8 +78,8 @@ make modifications before starting your own project.
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/BolivarTech/rust-embedded-template.git
-   cd rust-embedded-template
+   git clone https://github.com/BolivarTech/rust-embedded-template-vsc.git
+   cd rust-embedded-template-vsc
    ```
 
 2. **Build the project:**
