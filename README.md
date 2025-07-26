@@ -3,7 +3,8 @@
 This project provides a minimal template for starting a `#![no_std]` Rust embedded application. It is designed to be a 
 starting point for bare-metal or embedded development without the Rust standard library.
 
-This template is to be used in Visual Studio Code.
+This template is to be used in Visual Studio Code and it is based on the plain template
+[Rust Embedded Template](https://github.com/BolivarTech/rust-embedded-template).
 
 This template is intended for creating embedded applications using Rust in a bare-metal environment on an MCU where no 
 crate exists that implements the HAL (Hardware Abstraction Layer) for your specific microcontroller. Due to time 
